@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='about.css') }}">
+</head>
+<body>
+    <header>
+        <h1>About Us</h1>
+       
+    </header>
+
+    <main>
+        <section>
+            <h2>Our Story</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquam hendrerit magna, vel vestibulum risus tempor nec. Nulla at dolor ac purus tempus ultrices. Suspendisse potenti. Praesent convallis consequat elit, nec rutrum felis consequat vel. Donec lacinia semper eros nec consequat. Vivamus id sem non lectus interdum fermentum. Duis vitae est tellus.</p>
+        </section>
+
+        <section>
+            <h2>Our Products</h2>
+            <p>Here are some of the laptops we offer:</p>
+            <div class="product-gallery">
+                <img src="{{ url_for('static', filename='laptop1.jpg') }}" alt="Laptop 1">
+                <img src="{{ url_for('static', filename='laptop2.jpg') }}" alt="Laptop 2">
+                <img src="{{ url_for('static', filename='laptop3.jpg') }}" alt="Laptop 3">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2020-2024 IT MONKS SOLUTIONS. All rights reserved.</p>
+      <ul>
+          
+          <li><a href="/contact">something like 
+ location</a></li>
+      </ul>
+      <div>
+          <p> <b>Address:</b> 4th Floor Bizness square, opposite Meydan expo center, 16 Hitech City Rd, Hyderabad, Telangana 500081</p>
+          <p><a href="/privacy">Privacy Policy</a> | <a href="/terms">Terms and Conditions</a></p>
+      </div>
+    </footer>
+</body>
+</html>
