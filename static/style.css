@@ -58,4 +58,15 @@ footer {
     .column {
         flex: 0 0 100%;
     }
-}
+}\
+
+
+
+  
+ /* Define a class for round images */
+ .round-img {
+     width: 100px; /* Adjust width as needed */
+     height: 120px; /* Adjust height as needed */
+     border-radius: 50%; /* Makes the image round */
+     overflow: hidden; /* Ensures content doesn't protrude outside the round shape */
+ }
