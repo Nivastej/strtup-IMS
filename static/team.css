@@ -187,3 +187,9 @@ h1, h2, h3, h4, h5, h6 {
         transform: rotate(calc(var(--s, 1) * 1turn))
     }
 }
+
+.btn {
+    display: block;
+    margin: 20px auto; /* Centers the button horizontally */
+    text-align: center; /* Centers the text inside the button */
+} 
