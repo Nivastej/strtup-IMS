@@ -188,6 +188,15 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
+.btn1{
+  property:scale-1:4px
+  initial-scale-1:4px
+  final-scale:1:4px
+  animation-name:1:4px
+  animation-duration:1:4px
+  animqatioj- initairt- 1:4px
+  
+}
 .btn {
     display: block;
     margin: 20px auto; /* Centers the button horizontally */
