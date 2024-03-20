@@ -7,26 +7,47 @@
     <link rel="stylesheet" href="static/style.css">
 </head>
 <body>
-    <header>          
-        <nav>
-            <ul>
-                <li><a href="https://itmonkssolutions.com/">Home</a></li>
-                <li><a href="{{ url_for('about') }}">About Us</a></li>
-                <li><a href="{{ url_for('jobs') }}">Careers</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="{{ url_for('team') }}">Team</a></li>
-            </ul>
-        </nav>
-    </header>
+
+
 
     <main>
-        <section id="about">
-            <h4>ENGAGE WITH THE EMERGING AND TRANSFORM AT THE INTERSECTION</h4>
-            <p>Info if needed</p>
-        </section>
-        <img src="static/header.png" alt="header" width="100%" height="100%">
+        <div class="main-container">
+            <div class="blur-circle1">
 
-      
+            </div>
+            <div class="blur-circle2">
+
+            </div>
+              <!-- Start Landing Page -->
+          <div class="landing-page">
+            <header>
+              <div class="container">
+                <a href="#" class="logo"><b>It Monks Solutions</b></a>
+                <ul class="links">
+                  <li>Home</li>
+                  <li><a href="{{ url_for('about') }}">About Us</a></li>
+                  <li>Work</li>
+                  <li>Info</li>
+                  <li> <a href="{{ url_for('jobs') }}">Careers</a></li>
+                </ul>
+              </div>
+            </header>
+            <div class="content">
+              <div class="container">
+                <div class="info">
+                  <h1>IT MONKS SOLUTIONS</h1>
+                  <p>IT Monks Solutions Pvt Ltd is a dynamic player in the Information Technology Development and Services industry, committed to driving innovation and delivering cutting-edge solutions.</p>
+                  <button>Join Us</button>
+                </div>
+                <div class="image">
+                  <img class="main-image" src="https://cdni.iconscout.com/illustration/premium/thumb/businessman-working-using-vr-tech-3840669-3202986.png?f=webp">
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End Landing Page -->
+        </div>
+
 
         <div class="container">
             <div class="row">
@@ -34,7 +55,12 @@
                     <h3>Project Management</h3>
                     <p>IT Monks excels in proficient project management, ensuring streamlined execution and successful delivery of projects.</p>
 
-    {% include 'jobs.html'%}
+    {% include 'jobs.html'%} 
+                  <div id="counter" class="animated">
+                    <p> Projects </p>
+
+                      <ul class="digits digits-third luckie"> <li> 0 <li> 1 <li> 2 <li> 3 <li> 4 <li> 5 <li> 6 <li> 7 <li> 8 <li> 9 </ul>
+                  </div> 
                 </div>
                 <div class="column">
                     <h3>App Development</h3>

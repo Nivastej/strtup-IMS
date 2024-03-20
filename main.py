@@ -41,7 +41,7 @@ def home():
 
 @app.route('/jobs')
 def jobs():
-    return render_template('jobs.html', jobs=JOBS)
+    return render_template('jobs.html')
 
 @app.route('/api/jobs')
 def api_jobs():
